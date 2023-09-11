@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReventTask.Service", "ReventTask.Service.csproj", "{B6171BE1-018A-4903-9B09-589A66DE0343}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReventTask.Domain", "..\ReventTask.Domain\ReventTask.Domain.csproj", "{C9DA431E-6640-4FE4-87BE-BDE41A5A4261}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReventTask.Data", "..\ReventTask.Data\ReventTask.Data.csproj", "{67360A85-A492-4702-9D26-5D7B87866888}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReventTask.API", "..\ReventTask.API\ReventTask.API.csproj", "{239B251F-5BBD-4031-AF36-9168FE401DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailConsumerWorkerService", "..\EmailConsumerWorkerService\EmailConsumerWorkerService.csproj", "{F09DF92B-785F-41DB-8771-3148202AEBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6171BE1-018A-4903-9B09-589A66DE0343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6171BE1-018A-4903-9B09-589A66DE0343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6171BE1-018A-4903-9B09-589A66DE0343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6171BE1-018A-4903-9B09-589A66DE0343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DA431E-6640-4FE4-87BE-BDE41A5A4261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DA431E-6640-4FE4-87BE-BDE41A5A4261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DA431E-6640-4FE4-87BE-BDE41A5A4261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DA431E-6640-4FE4-87BE-BDE41A5A4261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67360A85-A492-4702-9D26-5D7B87866888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67360A85-A492-4702-9D26-5D7B87866888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67360A85-A492-4702-9D26-5D7B87866888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67360A85-A492-4702-9D26-5D7B87866888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239B251F-5BBD-4031-AF36-9168FE401DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239B251F-5BBD-4031-AF36-9168FE401DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239B251F-5BBD-4031-AF36-9168FE401DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239B251F-5BBD-4031-AF36-9168FE401DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09DF92B-785F-41DB-8771-3148202AEBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09DF92B-785F-41DB-8771-3148202AEBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09DF92B-785F-41DB-8771-3148202AEBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09DF92B-785F-41DB-8771-3148202AEBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF075A27-8691-4C2A-B8D3-6BED591DDB02}
+	EndGlobalSection
+EndGlobal
