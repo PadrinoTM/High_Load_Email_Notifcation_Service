@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="3.1.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DomainEvents\Generics\" />
+    <Folder Include="DomainValueObjects\" />
+  </ItemGroup>
+</Project>
+

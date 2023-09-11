@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="serilog.expressions" Version="3.2.1" />
+    <PackageReference Include="Serilog.Sinks.MongoDB" Version="5.1.2" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+ </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReventTask.Domain\ReventTask.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
+
